@@ -1,0 +1,11 @@
+.logo {
+    width: 30%;
+    margin: auto;
+}
+
+.dados {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 0 2rem 0;
+}
