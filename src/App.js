@@ -45,12 +45,8 @@ function App() {
 
   const [currentDate] = useState(new Date().toLocaleDateString());
 
-  const handlePrint = () => {
-    window.print();
-  }
-
   return (
-    <div className="App">
+    <div className="container">
       <ToastContainer />
 
       <div className="todo">
@@ -69,24 +65,18 @@ function App() {
                     <h5>Data:</h5>
                     <span>{currentDate}</span>
                 </div>
-
-                <div>
-                  <button onClick={handlePrint} className="download">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>
-                  </button>
-                </div>
             </div>
 
-            <div className="table-container">
+            <div className="table-responsive">
               <table className="table table-bordered">
 
                 <thead>
                   <tr>
-                    <th>Quantidade</th>
+                    <th>Qtd.</th>
                     <th>#</th>
                     <th>Descrição</th>
-                    <th>Código de Barras</th>
-                    <th>Ações</th>
+                    <th>Cód. de Barras</th>
+                    <th>#</th>
                   </tr>
                 </thead>
 
@@ -119,7 +109,7 @@ function App() {
 
                     <td>
                       <input
-                        type="text"
+                        type="number"
                         value={field4}
                         onChange={(ev) => setField4(ev.target.value)}
                       />
@@ -134,11 +124,13 @@ function App() {
 
                   {tasks.map(task => (
                     <tr key={task.id}>
-                      <td>{task.field1}</td>
-                      <td>{task.field2}</td>
-                      <td>{task.field3}</td>
-                      <td>{task.field4}</td>
-                      <td>
+                      <td className="height-data">{task.field1}</td>
+                      <td className="height-data">{task.field2}</td>
+                      <td className="height-data">
+                        <textarea value={task.field3}></textarea>
+                      </td>
+                      <td className="height-data">{task.field4}</td>
+                      <td className="height-data">
                         <button onClick={() => handleDeleteTask(task.id)}>
                           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg>
                         </button>

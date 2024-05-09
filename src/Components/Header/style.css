@@ -9,3 +9,12 @@
     justify-content: space-evenly;
     margin: 0rem 0 2rem 0;
 }
+
+button {
+    background-color: #FB6C6F;
+    padding: 0.2rem 0.8rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
