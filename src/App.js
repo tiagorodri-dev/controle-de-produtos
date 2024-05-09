@@ -57,12 +57,12 @@ function App() {
 
             <div className="avaria-dados">
                 <div>
-                    <h5>Empresa:</h5>
+                    <span>Empresa:</span>
                     <input type="text" className="empresa"/>
                 </div>
 
                 <div>
-                    <h5>Data:</h5>
+                    <span>Data:</span>
                     <span>{currentDate}</span>
                 </div>
             </div>
