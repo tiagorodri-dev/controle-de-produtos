@@ -21,6 +21,7 @@
     border: 1px solid #CCCCCC;
     padding: 20px;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
 
 section {
@@ -55,6 +56,10 @@ select {
     width: 100%;
 }
 
+table {
+    font-size: 1.5rem;
+}
+
 table tr {
     border: 1px solid #DDDDDD;
 }
@@ -65,14 +70,13 @@ textarea {
     resize: none;
 }
 
-.table-responsive {
+/* .table-responsive {
     width: 100%;
     margin: auto;
-    /* overflow-x: scroll; */
-}
+} */
 
-.height-data {
+/* .height-data {
     max-width: 60%;
     height: 75px;
     word-wrap: break-word;
-}
+} */

@@ -13,7 +13,7 @@ body {
 }
 
 @media print {
-    .bodytable, .download {
+    .button, .dados {
         display: none;
     }
 }
