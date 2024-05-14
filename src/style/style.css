@@ -57,26 +57,9 @@ select {
 }
 
 table {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
-table tr {
-    border: 1px solid #DDDDDD;
+.button {
+    text-align: center;
 }
-
-textarea {
-    width: 100px;
-    border: none;
-    resize: none;
-}
-
-/* .table-responsive {
-    width: 100%;
-    margin: auto;
-} */
-
-/* .height-data {
-    max-width: 60%;
-    height: 75px;
-    word-wrap: break-word;
-} */
