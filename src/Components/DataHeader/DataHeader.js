@@ -1,10 +1,12 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import "./style.css";
 
-export default function DataHeader() {
+export default function DataHeader({ setCompanyName }) {
+    const [currentDate] = useState(new Date().toLocaleDateString('pt-BR').replace(/\//g, '/'));
 
-    const [currentDate] = useState(new Date().toLocaleDateString());
+    const handleCompanyNameChange = (event) => {
+        setCompanyName(event.target.value);
+    };
 
     return (
         <>
@@ -14,7 +16,7 @@ export default function DataHeader() {
                 <div className="avaria-dados">
                     <div>
                         <span className="title">Empresa:</span>
-                        <input type="text" className="empresa"/>
+                        <input type="text" className="empresa" onChange={handleCompanyNameChange}/>
                     </div>
 
                     <div>
@@ -24,5 +26,5 @@ export default function DataHeader() {
                 </div>
             </section>
         </>
-    )
+    );
 }
