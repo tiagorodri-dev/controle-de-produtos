@@ -9,7 +9,6 @@ export default function Header({ companyName }) {
         const originalTitle = document.title;
         document.title = `Avarias_${companyName}_${currentDate}`;
         window.print();
-        document.title = originalTitle;
     };
 
     return (
