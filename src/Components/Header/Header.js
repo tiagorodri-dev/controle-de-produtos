@@ -6,10 +6,8 @@ export default function Header({ companyName }) {
     const currentDate = new Date().toLocaleDateString('pt-BR').replace(/\//g, '-');
 
     const handlePrint = () => {
-        const originalTitle = document.title;
         document.title = `Avarias_${companyName}_${currentDate}`;
         window.print();
-        document.title = originalTitle;
     };
 
     return (
