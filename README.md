@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Controle de Avarias
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🏠 Aplicação:
+http://controle-avarias.vercel.app/
+<br><br>
 
-## Available Scripts
+## 🎯 Objetivo:
+  Aplicativo foi desenvolvido para uma Rede de Supermercados da cidade de Floriano-PI. O objetivo foi desenvolver uma aplicação web que automatizasse a escrita de produtos vencidos.
+<br><br>
 
-In the project directory, you can run:
+## ⚡ Funcionalidades:
+<ul>
+  <li>Adicionar produtos.</li>
+  <li>Excluir produtos.</li>
+  <li>Validação do preenchimento das informações.</li>
+  <li>Download em pdf dos produtos cadastrados.</li>
+  <li>Responsividade para dispositivos móveis e tablets.</li>
+</ul>
+<br>
 
-### `npm start`
+## 💡 Tecnologias:
+As tecnologias utilizadas foram: HTML, CSS, Javascript, React.JS, Git e Vercel.
+<div display: "flex">
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
+  <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg"/>
+</div>
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✋ Pré-requisitos para uso:
+<ul>    
+  <li>Ter acesso a internet.</li>
+  <li>Ter acesso a algum navegador de internet (Google Chrome, Mozilla, Edge ou qualquer outro).</li>
+</ul>
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📙 Dicas de uso:
+Você pode acessar a aplicação através da URL `(https://controle-avarias.vercel.app/)`. Caso queria executar o projeto na sua máquina, siga o passo a passo:
+<ol>
+    <li>Abra a IDE de sua preferência.</li>
+    <li>Digite no terminal o comando `git clone https://github.com/tiagorodri-dev/controle-de-avarias.git`, para clonar o projeto para sua máquina.</li>
+    <li>Após clonar, execute o comando `npm i` para baixar as dependências do node_modules.</li>
+    <li>Em seguida acesse a raiz do projeto e digite o comando `npm start` para iniciar o projeto.</li>
+</ol>
+<br>
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💻 Telas:
+<div align="center">
+  <img src="https://github.com/tiagorodri-dev/controle-de-avarias/assets/68871083/dcfb6778-3b75-4e81-a73e-2dc78f3d6f1b" width="160">
+  <img src="https://github.com/tiagorodri-dev/controle-de-avarias/assets/68871083/0472f6dd-0d60-4d1f-90ad-8134b4100823" width="550">
+  <img src="https://github.com/tiagorodri-dev/controle-de-avarias/assets/68871083/35c48b33-2803-43bc-95de-97af0e0e7223" width="110">
+</div>
